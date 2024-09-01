@@ -1,3 +1,12 @@
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
+
+-- Molten
+-- vim.keymap.set("n", "<space>r", ":MoltenEvaluateOperator<CR>", { silent = true, desc = "run operator selection" })
+-- vim.keymap.set(
+--   "v",
+--   "<space>r",
+--   ":<C-u>MoltenEvaluateVisual<CR>gv",
+--   { silent = true, desc = "evaluate visual selection" }
+-- )
